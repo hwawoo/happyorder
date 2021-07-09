@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: username/order:latest
+          image: 110301420427.dkr.ecr.ap-southeast-2.amazonaws.com/hwawoo-order:latest
           ports:
             - containerPort: 8080
           readinessProbe:
